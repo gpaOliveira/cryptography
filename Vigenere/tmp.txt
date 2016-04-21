@@ -1,0 +1,500 @@
+==========test_best_key_len_stinson
+2.394
+1.11871428571
+2.13995658281
+calculate_coincidence_index {'A': 8, 'C': 1, 'B': 6, 'E': 8, 'G': 3, 'F': 1, 'I': 2, 'H': 4, 'K': 3, 'J': 1, 'M': 5, 'O': 4, 'N': 2, 'Q': 4, 'P': 1, 'S': 2, 'R': 6, 'U': 1, 'T': 3, 'W': 6, 'V': 3, 'X': 9, 'Z': 1} 360 6972.0
++++calculate_column_wise_coincidence_index 1 0.05 {0: 0.05163511187607573} 
+
+calculate_coincidence_index {'A': 3, 'C': 1, 'B': 4, 'E': 5, 'I': 1, 'H': 2, 'K': 2, 'J': 1, 'M': 3, 'O': 2, 'N': 1, 'P': 1, 'S': 1, 'R': 4, 'T': 2, 'W': 3, 'V': 1, 'X': 4, 'Z': 1} 82 1722.0
+calculate_coincidence_index {'A': 5, 'B': 2, 'E': 3, 'G': 3, 'F': 1, 'I': 1, 'H': 2, 'K': 1, 'M': 2, 'O': 2, 'N': 1, 'Q': 4, 'S': 1, 'R': 2, 'U': 1, 'T': 1, 'W': 3, 'V': 2, 'X': 5} 82 1722.0
++++calculate_column_wise_coincidence_index 2 0.05 {0: 0.047619047619047616, 1: 0.047619047619047616} 
+
+calculate_coincidence_index {'A': 1, 'C': 1, 'B': 3, 'E': 2, 'G': 1, 'I': 1, 'K': 1, 'M': 3, 'O': 3, 'Q': 1, 'R': 3, 'U': 1, 'T': 1, 'W': 2, 'V': 1, 'X': 2, 'Z': 1} 30 756.0
+calculate_coincidence_index {'A': 4, 'B': 1, 'E': 2, 'G': 2, 'I': 1, 'H': 2, 'M': 2, 'O': 1, 'N': 2, 'Q': 1, 'P': 1, 'S': 2, 'R': 1, 'T': 1, 'W': 1, 'V': 1, 'X': 3} 30 756.0
+calculate_coincidence_index {'A': 3, 'B': 2, 'E': 4, 'F': 1, 'H': 2, 'K': 2, 'J': 1, 'Q': 2, 'R': 2, 'T': 1, 'W': 3, 'V': 1, 'X': 4} 46 756.0
++++calculate_column_wise_coincidence_index 3 0.05 {0: 0.03968253968253968, 1: 0.03968253968253968, 2: 0.06084656084656084} 
+
+calculate_coincidence_index {'C': 1, 'B': 3, 'E': 3, 'I': 1, 'H': 1, 'K': 2, 'M': 1, 'P': 1, 'S': 1, 'R': 1, 'T': 1, 'W': 3, 'V': 1, 'X': 1} 20 420.0
+calculate_coincidence_index {'A': 3, 'E': 1, 'G': 3, 'I': 1, 'H': 2, 'M': 1, 'Q': 3, 'R': 1, 'U': 1, 'T': 1, 'W': 1, 'V': 1, 'X': 2} 22 420.0
+calculate_coincidence_index {'A': 3, 'B': 1, 'E': 2, 'H': 1, 'J': 1, 'M': 2, 'O': 2, 'N': 1, 'R': 3, 'T': 1, 'X': 3, 'Z': 1} 24 420.0
+calculate_coincidence_index {'A': 2, 'B': 2, 'E': 2, 'F': 1, 'K': 1, 'M': 1, 'O': 2, 'N': 1, 'Q': 1, 'S': 1, 'R': 1, 'W': 2, 'V': 1, 'X': 3} 16 420.0
++++calculate_column_wise_coincidence_index 4 0.05 {0: 0.047619047619047616, 1: 0.05238095238095238, 2: 0.05714285714285714, 3: 0.0380952380952381} 
+
+calculate_coincidence_index {'A': 2, 'C': 1, 'B': 3, 'E': 1, 'Q': 2, 'R': 1, 'U': 1, 'W': 5, 'V': 1} 30 272.0
+calculate_coincidence_index {'E': 4, 'G': 1, 'F': 1, 'I': 2, 'H': 1, 'M': 1, 'O': 3, 'S': 1, 'T': 2, 'W': 1} 22 272.0
+calculate_coincidence_index {'A': 5, 'B': 1, 'J': 1, 'O': 1, 'N': 2, 'Q': 1, 'S': 1, 'R': 4, 'V': 1} 34 272.0
+calculate_coincidence_index {'A': 1, 'E': 2, 'G': 1, 'H': 2, 'K': 3, 'M': 1, 'Q': 1, 'P': 1, 'V': 1, 'X': 3, 'Z': 1} 16 272.0
+calculate_coincidence_index {'B': 2, 'E': 1, 'G': 1, 'H': 1, 'M': 3, 'R': 1, 'T': 1, 'X': 6} 38 240.0
++++calculate_column_wise_coincidence_index 5 0.11 {0: 0.11029411764705882, 1: 0.08088235294117647, 2: 0.125, 3: 0.058823529411764705, 4: 0.15833333333333333} 
+
+calculate_coincidence_index {'C': 1, 'B': 2, 'E': 1, 'K': 1, 'M': 1, 'O': 1, 'R': 2, 'W': 1, 'V': 1, 'X': 2, 'Z': 1} 6 182.0
+calculate_coincidence_index {'A': 2, 'E': 1, 'G': 2, 'H': 1, 'N': 1, 'Q': 1, 'S': 1, 'W': 1, 'V': 1, 'X': 3} 10 182.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 3, 'H': 1, 'K': 1, 'J': 1, 'R': 1, 'T': 1, 'W': 2, 'X': 2} 10 182.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'G': 1, 'I': 1, 'M': 2, 'O': 2, 'Q': 1, 'R': 1, 'U': 1, 'T': 1, 'W': 1} 4 182.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'E': 1, 'I': 1, 'H': 1, 'M': 2, 'O': 1, 'N': 1, 'P': 1, 'S': 1, 'R': 1, 'T': 1} 4 182.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'E': 1, 'F': 1, 'H': 1, 'K': 1, 'Q': 2, 'R': 1, 'W': 1, 'V': 1, 'X': 2} 6 182.0
++++calculate_column_wise_coincidence_index 6 0.04 {0: 0.03296703296703297, 1: 0.054945054945054944, 2: 0.054945054945054944, 3: 0.02197802197802198, 4: 0.02197802197802198, 5: 0.03296703296703297} 
+
+calculate_coincidence_index {'A': 1, 'C': 1, 'E': 1, 'M': 1, 'Q': 1, 'P': 1, 'R': 3, 'T': 2, 'X': 1} 8 132.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'E': 1, 'F': 1, 'H': 3, 'M': 1, 'N': 1, 'V': 1, 'Z': 1} 8 132.0
+calculate_coincidence_index {'B': 1, 'I': 1, 'H': 1, 'M': 1, 'O': 1, 'Q': 2, 'R': 1, 'V': 1, 'X': 3} 8 132.0
+calculate_coincidence_index {'A': 2, 'B': 2, 'E': 2, 'G': 1, 'M': 1, 'S': 2, 'U': 1, 'W': 1} 8 132.0
+calculate_coincidence_index {'B': 1, 'E': 3, 'I': 1, 'O': 1, 'N': 1, 'R': 1, 'W': 1, 'X': 3} 12 132.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'E': 1, 'G': 1, 'K': 1, 'Q': 1, 'R': 1, 'W': 1, 'V': 1, 'X': 2} 4 132.0
+calculate_coincidence_index {'A': 1, 'G': 1, 'K': 2, 'J': 1, 'M': 1, 'O': 2, 'T': 1, 'W': 3} 10 132.0
++++calculate_column_wise_coincidence_index 7 0.06 {0: 0.06060606060606061, 1: 0.06060606060606061, 2: 0.06060606060606061, 3: 0.06060606060606061, 4: 0.09090909090909091, 5: 0.030303030303030304, 6: 0.07575757575757576} 
+
+calculate_coincidence_index {'C': 1, 'B': 3, 'E': 1, 'I': 1, 'H': 1, 'K': 1, 'M': 1, 'W': 1, 'V': 1} 6 110.0
+calculate_coincidence_index {'A': 2, 'E': 1, 'G': 1, 'I': 1, 'H': 1, 'M': 1, 'Q': 2, 'W': 1, 'X': 1} 4 110.0
+calculate_coincidence_index {'A': 3, 'E': 1, 'H': 1, 'M': 2, 'R': 2, 'X': 2} 12 110.0
+calculate_coincidence_index {'B': 1, 'E': 2, 'K': 1, 'O': 2, 'N': 1, 'Q': 1, 'W': 1, 'V': 1, 'X': 1} 4 110.0
+calculate_coincidence_index {'E': 2, 'K': 1, 'P': 1, 'S': 1, 'R': 1, 'T': 1, 'W': 2, 'X': 1} 4 90.0
+calculate_coincidence_index {'A': 1, 'G': 2, 'H': 1, 'Q': 1, 'R': 1, 'U': 1, 'T': 1, 'V': 1, 'X': 1} 2 90.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'J': 1, 'O': 2, 'N': 1, 'R': 1, 'T': 1, 'X': 1, 'Z': 1} 2 90.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'F': 1, 'M': 1, 'S': 1, 'R': 1, 'W': 1, 'X': 2} 4 90.0
++++calculate_column_wise_coincidence_index 8 0.05 {0: 0.05454545454545454, 1: 0.03636363636363636, 2: 0.10909090909090909, 3: 0.03636363636363636, 4: 0.044444444444444446, 5: 0.022222222222222223, 6: 0.022222222222222223, 7: 0.044444444444444446} 
+
+calculate_coincidence_index {'C': 1, 'E': 1, 'I': 1, 'M': 2, 'O': 1, 'U': 1, 'V': 1, 'X': 2} 4 90.0
+calculate_coincidence_index {'A': 2, 'G': 1, 'H': 1, 'M': 1, 'O': 1, 'Q': 1, 'P': 1, 'W': 1, 'X': 1} 2 90.0
+calculate_coincidence_index {'A': 1, 'E': 3, 'H': 1, 'K': 1, 'Q': 1, 'R': 1, 'W': 1, 'X': 1} 6 90.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'K': 1, 'M': 1, 'R': 2, 'T': 1, 'W': 1} 2 72.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'H': 1, 'N': 2, 'S': 1, 'T': 1, 'X': 1} 2 72.0
+calculate_coincidence_index {'A': 1, 'B': 2, 'K': 1, 'R': 1, 'T': 1, 'W': 1, 'V': 1, 'X': 1} 2 72.0
+calculate_coincidence_index {'B': 2, 'G': 1, 'O': 2, 'Q': 1, 'R': 1, 'W': 1, 'Z': 1} 4 72.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'G': 1, 'I': 1, 'M': 1, 'S': 1, 'R': 1, 'V': 1, 'X': 1} 0 72.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'F': 1, 'H': 1, 'J': 1, 'Q': 1, 'W': 1, 'X': 2} 2 72.0
++++calculate_column_wise_coincidence_index 9 0.03 {0: 0.044444444444444446, 1: 0.022222222222222223, 2: 0.06666666666666667, 3: 0.027777777777777776, 4: 0.027777777777777776, 5: 0.027777777777777776, 6: 0.05555555555555555, 7: 0.0, 8: 0.027777777777777776} 
+
+calculate_coincidence_index {'A': 2, 'R': 1, 'C': 1, 'B': 2, 'W': 3} 10 72.0
+calculate_coincidence_index {'E': 1, 'G': 1, 'F': 1, 'I': 1, 'H': 1, 'O': 1, 'S': 1, 'T': 1, 'W': 1} 0 72.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'J': 1, 'N': 1, 'S': 1, 'R': 3, 'V': 1} 6 72.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'G': 1, 'K': 1, 'M': 1, 'Q': 1, 'V': 1, 'X': 2} 2 72.0
+calculate_coincidence_index {'M': 2, 'B': 1, 'E': 1, 'T': 1, 'X': 3} 8 56.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'Q': 2, 'U': 1, 'W': 2, 'V': 1} 4 56.0
+calculate_coincidence_index {'I': 1, 'M': 1, 'E': 3, 'T': 1, 'O': 2} 8 56.0
+calculate_coincidence_index {'A': 4, 'Q': 1, 'R': 1, 'O': 1, 'N': 1} 12 56.0
+calculate_coincidence_index {'E': 1, 'H': 2, 'K': 2, 'P': 1, 'X': 1, 'Z': 1} 4 56.0
+calculate_coincidence_index {'B': 1, 'G': 1, 'H': 1, 'M': 1, 'R': 1, 'X': 3} 6 56.0
++++calculate_column_wise_coincidence_index 10 0.1 {0: 0.1388888888888889, 1: 0.0, 2: 0.08333333333333333, 3: 0.027777777777777776, 4: 0.14285714285714285, 5: 0.07142857142857142, 6: 0.14285714285714285, 7: 0.21428571428571427, 8: 0.07142857142857142, 9: 0.10714285714285714} 
+
+calculate_coincidence_index {'C': 1, 'E': 1, 'M': 1, 'N': 1, 'Q': 1, 'R': 1, 'W': 1, 'X': 1} 0 56.0
+calculate_coincidence_index {'E': 1, 'H': 1, 'M': 1, 'N': 1, 'R': 1, 'U': 1, 'X': 1, 'Z': 1} 0 56.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'K': 1, 'O': 1, 'Q': 1, 'R': 1, 'X': 1} 2 56.0
+calculate_coincidence_index {'A': 1, 'E': 3, 'G': 1, 'H': 1, 'T': 1, 'W': 1} 6 56.0
+calculate_coincidence_index {'B': 2, 'E': 2, 'I': 1, 'K': 1, 'Q': 1, 'R': 1} 4 56.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'F': 1, 'I': 1, 'O': 1, 'W': 1, 'V': 1, 'X': 1} 0 56.0
+calculate_coincidence_index {'A': 2, 'G': 1, 'K': 1, 'O': 1, 'P': 1, 'R': 1, 'V': 1} 2 56.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'G': 1, 'H': 1, 'J': 1, 'O': 1, 'X': 1} 0 42.0
+calculate_coincidence_index {'B': 1, 'H': 1, 'M': 1, 'S': 1, 'W': 1, 'X': 2} 2 42.0
+calculate_coincidence_index {'X': 1, 'S': 1, 'R': 1, 'M': 2, 'W': 2} 4 42.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'Q': 1, 'T': 2, 'V': 1, 'X': 1} 2 42.0
++++calculate_column_wise_coincidence_index 11 0.04 {0: 0.0, 1: 0.0, 2: 0.03571428571428571, 3: 0.10714285714285714, 4: 0.07142857142857142, 5: 0.0, 6: 0.03571428571428571, 7: 0.0, 8: 0.047619047619047616, 9: 0.09523809523809523, 10: 0.047619047619047616} 
+
+calculate_coincidence_index {'C': 1, 'B': 1, 'E': 1, 'K': 1, 'R': 1, 'W': 1, 'V': 1} 0 42.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'G': 2, 'H': 1, 'Q': 1, 'X': 1} 2 42.0
+calculate_coincidence_index {'A': 1, 'E': 2, 'J': 1, 'R': 1, 'T': 1, 'X': 1} 2 42.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'M': 1, 'O': 2, 'R': 1, 'W': 1} 2 42.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'I': 1, 'M': 1, 'P': 1, 'S': 1, 'T': 1} 0 42.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'Q': 1, 'R': 1, 'W': 1, 'V': 1, 'X': 1} 0 42.0
+calculate_coincidence_index {'B': 1, 'M': 1, 'O': 1, 'R': 1, 'X': 2, 'Z': 1} 2 42.0
+calculate_coincidence_index {'A': 1, 'N': 1, 'S': 1, 'W': 1, 'V': 1, 'X': 2} 2 42.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'H': 1, 'K': 1, 'W': 2, 'X': 1} 2 42.0
+calculate_coincidence_index {'A': 1, 'G': 1, 'I': 1, 'M': 1, 'Q': 1, 'U': 1, 'T': 1} 0 42.0
+calculate_coincidence_index {'A': 2, 'H': 1, 'M': 1, 'O': 1, 'N': 1, 'R': 1} 2 42.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'F': 1, 'K': 1, 'Q': 1, 'X': 1} 0 42.0
++++calculate_column_wise_coincidence_index 12 0.03 {0: 0.0, 1: 0.047619047619047616, 2: 0.047619047619047616, 3: 0.047619047619047616, 4: 0.0, 5: 0.0, 6: 0.047619047619047616, 7: 0.047619047619047616, 8: 0.047619047619047616, 9: 0.0, 10: 0.047619047619047616, 11: 0.0} 
+
+calculate_coincidence_index {'A': 1, 'C': 1, 'E': 1, 'Q': 1, 'S': 1, 'R': 1, 'Z': 1} 0 42.0
+calculate_coincidence_index {'B': 1, 'H': 1, 'M': 1, 'O': 1, 'T': 1, 'X': 2} 2 42.0
+calculate_coincidence_index {'B': 1, 'N': 1, 'P': 1, 'R': 1, 'W': 2, 'X': 1} 2 42.0
+calculate_coincidence_index {'E': 1, 'I': 2, 'H': 1, 'K': 1, 'R': 1, 'W': 1} 2 42.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'E': 2, 'G': 1, 'V': 1} 4 42.0
+calculate_coincidence_index {'A': 1, 'K': 1, 'S': 1, 'R': 1, 'V': 1, 'X': 2} 2 42.0
+calculate_coincidence_index {'B': 1, 'F': 1, 'H': 1, 'O': 1, 'U': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'O': 1, 'Q': 1, 'W': 1, 'V': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'G': 1, 'H': 1, 'M': 1, 'T': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'G': 1, 'K': 1, 'M': 1, 'N': 1, 'Q': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'X': 2, 'J': 1, 'E': 1, 'W': 1} 2 30.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'M': 1, 'Q': 1, 'T': 1} 0 30.0
+calculate_coincidence_index {'M': 1, 'R': 2, 'E': 2, 'O': 1} 4 30.0
++++calculate_column_wise_coincidence_index 13 0.04 {0: 0.0, 1: 0.047619047619047616, 2: 0.047619047619047616, 3: 0.047619047619047616, 4: 0.09523809523809523, 5: 0.047619047619047616, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.0, 10: 0.06666666666666667, 11: 0.0, 12: 0.13333333333333333} 
+
+calculate_coincidence_index {'P': 1, 'C': 1, 'R': 2, 'E': 1, 'T': 1} 2 30.0
+calculate_coincidence_index {'A': 1, 'H': 2, 'F': 1, 'B': 1, 'V': 1} 2 30.0
+calculate_coincidence_index {'B': 1, 'I': 1, 'H': 1, 'R': 1, 'V': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'G': 1, 'S': 1, 'U': 1} 0 30.0
+calculate_coincidence_index {'X': 2, 'B': 1, 'E': 1, 'W': 1, 'O': 1} 2 30.0
+calculate_coincidence_index {'A': 1, 'G': 1, 'Q': 1, 'W': 1, 'V': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'K': 1, 'J': 1, 'M': 1, 'O': 1, 'T': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'M': 1, 'Q': 1, 'R': 1, 'T': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'H': 1, 'M': 1, 'N': 1, 'Z': 1} 0 30.0
+calculate_coincidence_index {'Q': 2, 'X': 2, 'M': 1, 'O': 1} 4 30.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'M': 1, 'S': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'I': 1, 'X': 1, 'R': 1, 'E': 2, 'N': 1} 2 30.0
+calculate_coincidence_index {'A': 1, 'B': 1, 'E': 1, 'K': 1, 'R': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'K': 1, 'G': 1, 'W': 2, 'O': 1} 2 30.0
++++calculate_column_wise_coincidence_index 14 0.03 {0: 0.06666666666666667, 1: 0.06666666666666667, 2: 0.0, 3: 0.0, 4: 0.06666666666666667, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.13333333333333333, 10: 0.0, 11: 0.06666666666666667, 12: 0.0, 13: 0.06666666666666667} 
+
+calculate_coincidence_index {'C': 1, 'B': 2, 'U': 1, 'W': 2} 4 30.0
+calculate_coincidence_index {'G': 1, 'I': 1, 'H': 1, 'O': 1, 'S': 1, 'T': 1} 0 30.0
+calculate_coincidence_index {'A': 2, 'B': 1, 'R': 2, 'J': 1} 4 30.0
+calculate_coincidence_index {'E': 1, 'K': 1, 'M': 1, 'Q': 1, 'X': 1, 'Z': 1} 0 30.0
+calculate_coincidence_index {'X': 3, 'M': 2, 'E': 1} 8 30.0
+calculate_coincidence_index {'Q': 2, 'A': 1, 'W': 2, 'V': 1} 4 30.0
+calculate_coincidence_index {'I': 1, 'M': 1, 'E': 1, 'T': 1, 'O': 2} 2 30.0
+calculate_coincidence_index {'A': 2, 'Q': 1, 'S': 1, 'N': 2} 4 30.0
+calculate_coincidence_index {'H': 1, 'K': 2, 'E': 1, 'X': 2} 4 30.0
+calculate_coincidence_index {'X': 1, 'R': 1, 'B': 1, 'M': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'R': 1, 'B': 1, 'E': 1, 'W': 1} 0 20.0
+calculate_coincidence_index {'E': 3, 'W': 1, 'F': 1} 6 20.0
+calculate_coincidence_index {'A': 1, 'R': 2, 'O': 1, 'V': 1} 2 20.0
+calculate_coincidence_index {'A': 1, 'P': 1, 'G': 1, 'H': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'B': 1, 'T': 1, 'X': 2} 2 20.0
++++calculate_column_wise_coincidence_index 15 0.1 {0: 0.13333333333333333, 1: 0.0, 2: 0.13333333333333333, 3: 0.0, 4: 0.26666666666666666, 5: 0.13333333333333333, 6: 0.06666666666666667, 7: 0.13333333333333333, 8: 0.13333333333333333, 9: 0.0, 10: 0.0, 11: 0.3, 12: 0.1, 13: 0.0, 14: 0.1} 
+
+calculate_coincidence_index {'C': 1, 'B': 1, 'I': 1, 'K': 1, 'M': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'Q': 2, 'I': 1, 'X': 1} 2 30.0
+calculate_coincidence_index {'A': 2, 'X': 1, 'R': 1, 'M': 2} 4 30.0
+calculate_coincidence_index {'E': 1, 'K': 1, 'O': 1, 'N': 1, 'Q': 1, 'X': 1} 0 30.0
+calculate_coincidence_index {'S': 1, 'E': 2, 'K': 1, 'W': 1} 2 20.0
+calculate_coincidence_index {'Q': 1, 'X': 1, 'T': 1, 'G': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'X': 1, 'R': 1, 'E': 1, 'O': 1, 'N': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'R': 1, 'W': 1, 'F': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'B': 2, 'E': 1, 'V': 1} 2 20.0
+calculate_coincidence_index {'A': 1, 'E': 1, 'M': 1, 'G': 1, 'W': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'R': 1, 'E': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'W': 1, 'O': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'P': 1, 'R': 1, 'T': 1, 'W': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'R': 1, 'U': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'J': 1, 'B': 1, 'Z': 1, 'T': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'S': 1, 'B': 1, 'M': 1} 0 20.0
++++calculate_column_wise_coincidence_index 16 0.03 {0: 0.0, 1: 0.06666666666666667, 2: 0.13333333333333333, 3: 0.0, 4: 0.1, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.1, 9: 0.0, 10: 0.0, 11: 0.0, 12: 0.0, 13: 0.0, 14: 0.0, 15: 0.0} 
+
+calculate_coincidence_index {'A': 1, 'C': 1, 'M': 1, 'K': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'S': 1, 'G': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'X': 2, 'R': 2, 'E': 1} 4 20.0
+calculate_coincidence_index {'Q': 1, 'X': 1, 'E': 1, 'W': 1, 'F': 1} 0 20.0
+calculate_coincidence_index {'E': 2, 'T': 1, 'W': 1, 'V': 1} 2 20.0
+calculate_coincidence_index {'R': 1, 'N': 1, 'E': 1, 'G': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'X': 2, 'B': 1, 'O': 1} 2 20.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'B': 1, 'W': 2} 2 20.0
+calculate_coincidence_index {'H': 1, 'B': 1, 'R': 1, 'E': 1, 'T': 1} 0 20.0
+calculate_coincidence_index {'E': 1, 'R': 1, 'M': 1, 'W': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'Z': 1, 'G': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'P': 1, 'J': 1, 'E': 1, 'U': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'R': 1, 'M': 1, 'W': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'A': 2, 'I': 1, 'B': 1, 'M': 1} 2 20.0
+calculate_coincidence_index {'K': 1, 'Q': 1, 'S': 1, 'A': 1, 'T': 1} 0 20.0
+calculate_coincidence_index {'X': 1, 'K': 1, 'B': 2, 'M': 1} 2 20.0
+calculate_coincidence_index {'I': 1, 'Q': 1, 'A': 1, 'N': 1} 0 12.0
++++calculate_column_wise_coincidence_index 17 0.04 {0: 0.0, 1: 0.0, 2: 0.2, 3: 0.0, 4: 0.1, 5: 0.0, 6: 0.1, 7: 0.1, 8: 0.0, 9: 0.0, 10: 0.0, 11: 0.0, 12: 0.0, 13: 0.1, 14: 0.0, 15: 0.1, 16: 0.0} 
+
+calculate_coincidence_index {'X': 2, 'C': 1, 'E': 1, 'V': 1} 2 20.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'G': 1, 'W': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'X': 1, 'R': 1, 'E': 2, 'W': 1} 2 20.0
+calculate_coincidence_index {'A': 1, 'R': 1, 'E': 1, 'T': 1, 'W': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'B': 1, 'E': 1, 'T': 1, 'N': 1} 0 20.0
+calculate_coincidence_index {'X': 1, 'R': 1, 'B': 1, 'W': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'R': 1, 'B': 1, 'Z': 1, 'W': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'E': 1, 'G': 1, 'V': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'J': 1, 'E': 1, 'W': 1, 'X': 1} 0 20.0
+calculate_coincidence_index {'I': 1, 'U': 1, 'M': 2, 'O': 1} 2 20.0
+calculate_coincidence_index {'A': 2, 'P': 1, 'M': 1, 'O': 1} 2 20.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'K': 1, 'Q': 1, 'E': 1} 0 20.0
+calculate_coincidence_index {'B': 1, 'R': 1, 'M': 1, 'K': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'S': 1, 'N': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'K': 1, 'B': 1, 'T': 1} 0 12.0
+calculate_coincidence_index {'Q': 1, 'B': 1, 'G': 1, 'O': 1} 0 12.0
+calculate_coincidence_index {'I': 1, 'S': 1, 'R': 1, 'M': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'Q': 1, 'F': 1, 'X': 1} 0 12.0
++++calculate_column_wise_coincidence_index 18 0.02 {0: 0.1, 1: 0.0, 2: 0.1, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.1, 10: 0.1, 11: 0.0, 12: 0.0, 13: 0.0, 14: 0.0, 15: 0.0, 16: 0.0, 17: 0.0} 
+
+calculate_coincidence_index {'A': 1, 'X': 1, 'C': 1, 'E': 1, 'T': 1} 0 20.0
+calculate_coincidence_index {'H': 2, 'R': 2, 'W': 1} 4 20.0
+calculate_coincidence_index {'B': 2, 'R': 1, 'Z': 1, 'T': 1} 2 20.0
+calculate_coincidence_index {'X': 1, 'E': 1, 'W': 2, 'N': 1} 2 20.0
+calculate_coincidence_index {'X': 1, 'R': 1, 'E': 1, 'W': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'I': 1, 'J': 1, 'B': 1, 'V': 2} 2 20.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'M': 1, 'E': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'A': 1, 'U': 1, 'M': 1, 'E': 1, 'K': 1} 0 20.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'O': 2} 2 12.0
+calculate_coincidence_index {'A': 1, 'P': 1, 'M': 2} 2 12.0
+calculate_coincidence_index {'A': 1, 'H': 1, 'K': 1, 'N': 1} 0 12.0
+calculate_coincidence_index {'X': 1, 'K': 1, 'B': 1, 'E': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'S': 1, 'R': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'R': 1, 'B': 1, 'O': 1} 0 12.0
+calculate_coincidence_index {'Q': 1, 'S': 1, 'T': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'X': 1, 'B': 1, 'M': 1, 'V': 1} 0 12.0
+calculate_coincidence_index {'I': 1, 'Q': 1, 'G': 1, 'X': 1} 0 12.0
+calculate_coincidence_index {'A': 1, 'X': 1, 'E': 1, 'W': 1} 0 12.0
+calculate_coincidence_index {'Q': 1, 'X': 1, 'E': 1, 'W': 1} 0 12.0
++++calculate_column_wise_coincidence_index 19 0.04 {0: 0.0, 1: 0.2, 2: 0.1, 3: 0.1, 4: 0.0, 5: 0.1, 6: 0.0, 7: 0.0, 8: 0.16666666666666666, 9: 0.16666666666666666, 10: 0.0, 11: 0.0, 12: 0.0, 13: 0.0, 14: 0.0, 15: 0.0, 16: 0.0, 17: 0.0, 18: 0.0} 
+
+==> 7 [0.017, 0.017, 0.017, 0.017, 0.043, 0.027000000000000003, 0.007000000000000006, 0.017, 0.037000000000000005, 0.033, 0.027000000000000003, 0.037000000000000005, 0.027000000000000003, 0.037000000000000005, 0.033, 0.037000000000000005, 0.027000000000000003, 0.047, 0.027000000000000003] 
+
+==========test_best_key_len_wikipedia
+3.705
+0.600461538462
+6.17025365104
+==========test_best_key_len_with_1_len
+0.5985
+1.06802380952
+0.560380765544
+==========test_best_key_len_with_2_len
+1.5105
+1.19631132075
+1.26263120126
+calculate_coincidence_index {'C': 6, 'B': 3, 'E': 1, 'G': 7, 'F': 6, 'I': 1, 'H': 3, 'K': 1, 'M': 2, 'L': 3, 'O': 2, 'Q': 2, 'P': 3, 'S': 5, 'R': 4, 'W': 2, 'Y': 2} 168 2756.0
++++calculate_column_wise_coincidence_index 1 0.06 {0: 0.06095791001451379} 
+
+calculate_coincidence_index {'C': 1, 'B': 2, 'E': 1, 'G': 4, 'F': 3, 'K': 1, 'M': 1, 'L': 3, 'Q': 1, 'P': 2, 'R': 4, 'W': 2, 'Y': 2} 44 702.0
+calculate_coincidence_index {'C': 5, 'B': 1, 'G': 3, 'F': 3, 'I': 1, 'H': 3, 'M': 1, 'O': 2, 'Q': 1, 'P': 1, 'S': 5} 60 650.0
++++calculate_column_wise_coincidence_index 2 0.08 {0: 0.06267806267806268, 1: 0.09230769230769231} 
+
+calculate_coincidence_index {'B': 1, 'E': 1, 'G': 1, 'F': 3, 'H': 1, 'K': 1, 'M': 1, 'L': 2, 'O': 1, 'P': 2, 'S': 2, 'R': 1, 'Y': 1} 12 306.0
+calculate_coincidence_index {'C': 4, 'B': 1, 'G': 4, 'F': 2, 'I': 1, 'H': 1, 'L': 1, 'S': 2, 'R': 1, 'W': 1} 28 306.0
+calculate_coincidence_index {'C': 2, 'B': 1, 'G': 2, 'F': 1, 'H': 1, 'M': 1, 'O': 1, 'Q': 2, 'P': 1, 'S': 1, 'R': 2, 'W': 1, 'Y': 1} 8 272.0
++++calculate_column_wise_coincidence_index 3 0.05 {0: 0.0392156862745098, 1: 0.0915032679738562, 2: 0.029411764705882353} 
+
+calculate_coincidence_index {'B': 2, 'E': 1, 'G': 1, 'L': 2, 'P': 2, 'R': 2, 'W': 2, 'Y': 2} 12 182.0
+calculate_coincidence_index {'C': 4, 'I': 1, 'H': 3, 'M': 1, 'O': 1, 'P': 1, 'S': 2} 20 156.0
+calculate_coincidence_index {'C': 1, 'G': 3, 'F': 3, 'K': 1, 'M': 1, 'L': 1, 'Q': 1, 'R': 2} 14 156.0
+calculate_coincidence_index {'C': 1, 'B': 1, 'G': 3, 'F': 3, 'O': 1, 'Q': 1, 'S': 3} 18 156.0
++++calculate_column_wise_coincidence_index 4 0.1 {0: 0.06593406593406594, 1: 0.1282051282051282, 2: 0.08974358974358974, 3: 0.11538461538461539} 
+
+calculate_coincidence_index {'C': 1, 'B': 2, 'G': 1, 'F': 1, 'I': 1, 'K': 1, 'S': 1, 'R': 2, 'W': 1} 4 110.0
+calculate_coincidence_index {'C': 1, 'E': 1, 'G': 2, 'F': 1, 'H': 1, 'L': 2, 'Q': 1, 'P': 1, 'S': 1} 4 110.0
+calculate_coincidence_index {'C': 3, 'G': 1, 'F': 1, 'H': 1, 'M': 1, 'P': 1, 'S': 1, 'W': 1, 'Y': 1} 6 110.0
+calculate_coincidence_index {'G': 1, 'F': 2, 'M': 1, 'L': 1, 'Q': 1, 'S': 2, 'R': 2} 6 90.0
+calculate_coincidence_index {'C': 1, 'B': 1, 'G': 2, 'F': 1, 'H': 1, 'O': 2, 'P': 1, 'Y': 1} 4 90.0
++++calculate_column_wise_coincidence_index 5 0.05 {0: 0.03636363636363636, 1: 0.03636363636363636, 2: 0.05454545454545454, 3: 0.06666666666666667, 4: 0.044444444444444446} 
+
+calculate_coincidence_index {'B': 1, 'E': 1, 'F': 1, 'K': 1, 'L': 2, 'P': 1, 'R': 1, 'Y': 1} 2 72.0
+calculate_coincidence_index {'C': 3, 'G': 1, 'F': 1, 'I': 1, 'H': 1, 'S': 2} 8 72.0
+calculate_coincidence_index {'G': 1, 'F': 1, 'M': 1, 'Q': 1, 'P': 1, 'R': 2, 'W': 1, 'Y': 1} 2 72.0
+calculate_coincidence_index {'G': 1, 'F': 2, 'H': 1, 'M': 1, 'O': 1, 'P': 1, 'S': 2} 4 72.0
+calculate_coincidence_index {'C': 1, 'B': 1, 'G': 3, 'F': 1, 'L': 1, 'R': 1, 'W': 1} 6 72.0
+calculate_coincidence_index {'C': 2, 'B': 1, 'G': 1, 'H': 1, 'O': 1, 'Q': 1, 'S': 1} 2 56.0
++++calculate_column_wise_coincidence_index 6 0.06 {0: 0.027777777777777776, 1: 0.1111111111111111, 2: 0.027777777777777776, 3: 0.05555555555555555, 4: 0.08333333333333333, 5: 0.03571428571428571} 
+
+calculate_coincidence_index {'P': 1, 'C': 2, 'B': 2, 'G': 2, 'F': 1} 6 56.0
+calculate_coincidence_index {'C': 2, 'E': 1, 'G': 1, 'O': 1, 'S': 1, 'R': 2} 4 56.0
+calculate_coincidence_index {'F': 1, 'H': 2, 'K': 1, 'M': 1, 'L': 1, 'Q': 1, 'P': 1} 2 56.0
+calculate_coincidence_index {'C': 1, 'G': 1, 'F': 3, 'S': 1, 'W': 1, 'Y': 1} 6 56.0
+calculate_coincidence_index {'B': 1, 'G': 1, 'I': 1, 'O': 1, 'S': 1, 'R': 1, 'Y': 1} 0 42.0
+calculate_coincidence_index {'C': 1, 'G': 1, 'F': 1, 'M': 1, 'Q': 1, 'P': 1, 'R': 1} 0 42.0
+calculate_coincidence_index {'G': 1, 'H': 1, 'S': 2, 'L': 2, 'W': 1} 4 42.0
++++calculate_column_wise_coincidence_index 7 0.06 {0: 0.10714285714285714, 1: 0.07142857142857142, 2: 0.03571428571428571, 3: 0.10714285714285714, 4: 0.0, 5: 0.0, 6: 0.09523809523809523} 
+
+calculate_coincidence_index {'Y': 2, 'R': 2, 'B': 1, 'L': 2} 6 42.0
+calculate_coincidence_index {'I': 1, 'H': 2, 'C': 3, 'M': 1} 8 42.0
+calculate_coincidence_index {'Q': 1, 'R': 2, 'M': 1, 'G': 1, 'F': 2} 4 42.0
+calculate_coincidence_index {'S': 3, 'B': 1, 'F': 3} 12 42.0
+calculate_coincidence_index {'P': 2, 'B': 1, 'E': 1, 'G': 1, 'W': 2} 4 42.0
+calculate_coincidence_index {'P': 1, 'C': 1, 'S': 2, 'O': 1, 'H': 1} 2 30.0
+calculate_coincidence_index {'K': 1, 'C': 1, 'L': 1, 'G': 2, 'F': 1} 2 30.0
+calculate_coincidence_index {'Q': 1, 'C': 1, 'O': 1, 'G': 3} 6 30.0
++++calculate_column_wise_coincidence_index 8 0.14 {0: 0.14285714285714285, 1: 0.19047619047619047, 2: 0.09523809523809523, 3: 0.2857142857142857, 4: 0.09523809523809523, 5: 0.06666666666666667, 6: 0.06666666666666667, 7: 0.2} 
+
+calculate_coincidence_index {'H': 1, 'R': 1, 'B': 1, 'E': 1, 'S': 2} 2 30.0
+calculate_coincidence_index {'H': 1, 'C': 1, 'G': 2, 'F': 2} 4 30.0
+calculate_coincidence_index {'G': 1, 'F': 1, 'M': 1, 'O': 1, 'S': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'P': 2, 'K': 1, 'L': 1, 'O': 1, 'F': 1} 2 30.0
+calculate_coincidence_index {'R': 1, 'S': 1, 'B': 1, 'C': 2, 'G': 1} 2 30.0
+calculate_coincidence_index {'C': 1, 'G': 1, 'H': 1, 'Q': 1, 'R': 1, 'Y': 1} 0 30.0
+calculate_coincidence_index {'Y': 1, 'M': 1, 'L': 1, 'G': 1, 'F': 2} 2 30.0
+calculate_coincidence_index {'C': 1, 'G': 1, 'I': 1, 'L': 1, 'S': 1, 'W': 1} 0 30.0
+calculate_coincidence_index {'Q': 1, 'P': 1, 'C': 1, 'R': 1, 'B': 1} 0 20.0
++++calculate_column_wise_coincidence_index 9 0.04 {0: 0.06666666666666667, 1: 0.13333333333333333, 2: 0.0, 3: 0.06666666666666667, 4: 0.06666666666666667, 5: 0.0, 6: 0.06666666666666667, 7: 0.0, 8: 0.0} 
+
+calculate_coincidence_index {'R': 2, 'K': 1, 'B': 1, 'W': 1, 'F': 1} 2 30.0
+calculate_coincidence_index {'C': 1, 'G': 1, 'F': 1, 'H': 1, 'P': 1, 'S': 1} 0 30.0
+calculate_coincidence_index {'C': 1, 'F': 1, 'M': 1, 'P': 1, 'W': 1, 'Y': 1} 0 30.0
+calculate_coincidence_index {'Q': 1, 'S': 2, 'M': 1, 'F': 1} 2 20.0
+calculate_coincidence_index {'Y': 1, 'P': 1, 'B': 1, 'G': 2} 2 20.0
+calculate_coincidence_index {'I': 1, 'C': 1, 'B': 1, 'S': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'Q': 1, 'E': 1, 'L': 2, 'G': 1} 2 20.0
+calculate_coincidence_index {'H': 1, 'C': 2, 'S': 1, 'G': 1} 2 20.0
+calculate_coincidence_index {'R': 2, 'L': 1, 'G': 1, 'F': 1} 2 20.0
+calculate_coincidence_index {'H': 1, 'C': 1, 'O': 2, 'F': 1} 2 20.0
++++calculate_column_wise_coincidence_index 10 0.07 {0: 0.06666666666666667, 1: 0.0, 2: 0.0, 3: 0.1, 4: 0.1, 5: 0.0, 6: 0.1, 7: 0.1, 8: 0.1, 9: 0.1} 
+
+calculate_coincidence_index {'P': 1, 'S': 1, 'B': 1, 'M': 1, 'C': 1} 0 20.0
+calculate_coincidence_index {'Q': 1, 'P': 1, 'C': 1, 'S': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'Y': 1, 'S': 1, 'B': 1, 'M': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'I': 1, 'E': 1, 'G': 2, 'F': 1} 2 20.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'B': 1, 'L': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'S': 1, 'C': 2, 'L': 1, 'F': 1} 2 20.0
+calculate_coincidence_index {'O': 1, 'C': 1, 'R': 1, 'L': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'C': 1, 'R': 2, 'O': 1, 'F': 1} 2 20.0
+calculate_coincidence_index {'H': 1, 'K': 1, 'R': 1, 'W': 1, 'F': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'G': 1, 'W': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'Y': 1, 'P': 1, 'S': 1, 'F': 1} 0 12.0
++++calculate_column_wise_coincidence_index 11 0.03 {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.1, 4: 0.0, 5: 0.1, 6: 0.0, 7: 0.1, 8: 0.0, 9: 0.0, 10: 0.0} 
+
+calculate_coincidence_index {'Y': 1, 'P': 1, 'B': 1, 'E': 1, 'L': 1} 0 20.0
+calculate_coincidence_index {'I': 1, 'H': 1, 'C': 2, 'S': 1} 2 20.0
+calculate_coincidence_index {'Q': 1, 'R': 1, 'M': 1, 'G': 1, 'F': 1} 0 20.0
+calculate_coincidence_index {'S': 1, 'O': 1, 'G': 1, 'F': 2} 2 20.0
+calculate_coincidence_index {'W': 1, 'R': 1, 'B': 1, 'L': 1, 'G': 1} 0 20.0
+calculate_coincidence_index {'H': 1, 'C': 2, 'O': 1} 2 12.0
+calculate_coincidence_index {'K': 1, 'R': 1, 'L': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'S': 1, 'G': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'Y': 1, 'P': 1, 'R': 1, 'W': 1} 0 12.0
+calculate_coincidence_index {'H': 1, 'S': 1, 'M': 1, 'P': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'G': 2, 'F': 1} 2 12.0
+calculate_coincidence_index {'Q': 1, 'S': 1, 'B': 1, 'G': 1} 0 12.0
++++calculate_column_wise_coincidence_index 12 0.04 {0: 0.0, 1: 0.1, 2: 0.0, 3: 0.1, 4: 0.0, 5: 0.16666666666666666, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.0, 10: 0.16666666666666666, 11: 0.0} 
+
+calculate_coincidence_index {'Q': 1, 'S': 1, 'B': 1, 'W': 1, 'O': 1} 0 20.0
+calculate_coincidence_index {'C': 1, 'R': 1, 'S': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'H': 1, 'M': 1, 'G': 2} 2 12.0
+calculate_coincidence_index {'L': 1, 'O': 1, 'F': 2} 2 12.0
+calculate_coincidence_index {'S': 1, 'C': 1, 'B': 1, 'K': 1} 0 12.0
+calculate_coincidence_index {'P': 1, 'C': 1, 'R': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'Y': 1, 'S': 1, 'L': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'M': 1, 'G': 1, 'W': 1} 0 12.0
+calculate_coincidence_index {'P': 1, 'R': 1, 'G': 2} 2 12.0
+calculate_coincidence_index {'H': 1, 'C': 1, 'B': 1, 'L': 1} 0 12.0
+calculate_coincidence_index {'Q': 1, 'C': 1, 'E': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'Y': 1, 'H': 1, 'S': 1, 'R': 1} 0 12.0
+calculate_coincidence_index {'I': 1, 'P': 1, 'F': 2} 2 12.0
++++calculate_column_wise_coincidence_index 13 0.05 {0: 0.0, 1: 0.0, 2: 0.16666666666666666, 3: 0.16666666666666666, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.16666666666666666, 9: 0.0, 10: 0.0, 11: 0.0, 12: 0.16666666666666666} 
+
+calculate_coincidence_index {'B': 1, 'G': 2, 'F': 1} 2 12.0
+calculate_coincidence_index {'S': 1, 'C': 1, 'O': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'P': 1, 'K': 1, 'M': 1, 'L': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'S': 1, 'G': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'Y': 1, 'R': 1, 'B': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'M': 1, 'G': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'G': 1, 'L': 2, 'W': 1} 2 12.0
+calculate_coincidence_index {'P': 1, 'C': 2, 'B': 1} 2 12.0
+calculate_coincidence_index {'C': 1, 'R': 2, 'E': 1} 2 12.0
+calculate_coincidence_index {'Q': 1, 'H': 2, 'F': 1} 2 12.0
+calculate_coincidence_index {'Y': 1, 'W': 1, 'F': 2} 2 12.0
+calculate_coincidence_index {'I': 1, 'S': 1, 'O': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'P': 1, 'R': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'S': 2} 2 6.0
++++calculate_column_wise_coincidence_index 14 0.1 {0: 0.16666666666666666, 1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.16666666666666666, 7: 0.16666666666666666, 8: 0.16666666666666666, 9: 0.16666666666666666, 10: 0.16666666666666666, 11: 0.0, 12: 0.0, 13: 0.3333333333333333} 
+
+calculate_coincidence_index {'K': 1, 'B': 1, 'S': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'L': 1, 'G': 2} 2 12.0
+calculate_coincidence_index {'Y': 1, 'C': 1, 'M': 1, 'G': 1} 0 12.0
+calculate_coincidence_index {'R': 1, 'M': 1, 'L': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'B': 1, 'G': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'R': 1, 'C': 1, 'B': 1, 'W': 1} 0 12.0
+calculate_coincidence_index {'P': 1, 'E': 1, 'L': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'H': 1, 'C': 2, 'W': 1} 2 12.0
+calculate_coincidence_index {'Q': 1, 'R': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'H': 1, 'O': 1} 0 6.0
+calculate_coincidence_index {'I': 1, 'R': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'S': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'S': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'S': 2, 'G': 1} 2 6.0
+calculate_coincidence_index {'P': 1, 'O': 1, 'G': 1} 0 6.0
++++calculate_column_wise_coincidence_index 15 0.04 {0: 0.0, 1: 0.16666666666666666, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.16666666666666666, 8: 0.0, 9: 0.0, 10: 0.0, 11: 0.0, 12: 0.0, 13: 0.3333333333333333, 14: 0.0} 
+
+calculate_coincidence_index {'Y': 1, 'B': 1, 'L': 2} 2 12.0
+calculate_coincidence_index {'C': 3, 'M': 1} 6 12.0
+calculate_coincidence_index {'R': 2, 'M': 1, 'G': 1} 2 12.0
+calculate_coincidence_index {'B': 1, 'F': 3} 6 12.0
+calculate_coincidence_index {'B': 1, 'E': 1, 'W': 2} 2 12.0
+calculate_coincidence_index {'P': 1, 'C': 1, 'H': 1} 0 6.0
+calculate_coincidence_index {'C': 1, 'L': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'C': 1, 'O': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'R': 2} 2 6.0
+calculate_coincidence_index {'I': 1, 'H': 2} 2 6.0
+calculate_coincidence_index {'Q': 1, 'F': 2} 2 6.0
+calculate_coincidence_index {'S': 3} 6 6.0
+calculate_coincidence_index {'P': 2, 'G': 1} 2 6.0
+calculate_coincidence_index {'S': 2, 'O': 1} 2 6.0
+calculate_coincidence_index {'K': 1, 'G': 2} 2 6.0
+calculate_coincidence_index {'G': 3} 6 6.0
++++calculate_column_wise_coincidence_index 16 0.34 {0: 0.16666666666666666, 1: 0.5, 2: 0.16666666666666666, 3: 0.5, 4: 0.16666666666666666, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.3333333333333333, 9: 0.3333333333333333, 10: 0.3333333333333333, 11: 1.0, 12: 0.3333333333333333, 13: 0.3333333333333333, 14: 0.3333333333333333, 15: 1.0} 
+
+calculate_coincidence_index {'C': 1, 'B': 1, 'G': 1, 'F': 1} 0 12.0
+calculate_coincidence_index {'C': 1, 'R': 1, 'B': 1, 'W': 1} 0 12.0
+calculate_coincidence_index {'E': 1, 'M': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'W': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'B': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'C': 2, 'O': 1} 2 6.0
+calculate_coincidence_index {'Q': 1, 'R': 1, 'L': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'H': 1, 'C': 1} 0 6.0
+calculate_coincidence_index {'I': 1, 'R': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'S': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'S': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'S': 2, 'G': 1} 2 6.0
+calculate_coincidence_index {'P': 1, 'G': 1, 'O': 1} 0 6.0
+calculate_coincidence_index {'S': 1, 'K': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'L': 1, 'G': 2} 2 6.0
+calculate_coincidence_index {'Y': 1, 'C': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'R': 1, 'M': 1, 'L': 1} 0 6.0
++++calculate_column_wise_coincidence_index 17 0.06 {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.3333333333333333, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.0, 10: 0.0, 11: 0.3333333333333333, 12: 0.0, 13: 0.0, 14: 0.3333333333333333, 15: 0.0, 16: 0.0} 
+
+calculate_coincidence_index {'R': 1, 'B': 1, 'E': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'C': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'M': 1, 'W': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'O': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'R': 1, 'C': 1, 'B': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'H': 1, 'C': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'L': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'I': 1, 'C': 1, 'S': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'P': 1, 'R': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'S': 2} 2 6.0
+calculate_coincidence_index {'G': 2, 'F': 1} 2 6.0
+calculate_coincidence_index {'S': 1, 'G': 1, 'O': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'K': 1, 'L': 1} 0 6.0
+calculate_coincidence_index {'S': 1, 'C': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'R': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'M': 1, 'G': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'W': 1, 'L': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'C': 1, 'B': 1} 0 2.0
++++calculate_column_wise_coincidence_index 18 0.04 {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.3333333333333333, 10: 0.3333333333333333, 11: 0.0, 12: 0.0, 13: 0.0, 14: 0.0, 15: 0.0, 16: 0.0, 17: 0.0} 
+
+calculate_coincidence_index {'B': 1, 'F': 2} 2 6.0
+calculate_coincidence_index {'C': 1, 'O': 1, 'W': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'R': 1, 'M': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'C': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'B': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'C': 1, 'S': 1} 0 6.0
+calculate_coincidence_index {'I': 1, 'P': 1, 'L': 1} 0 6.0
+calculate_coincidence_index {'Q': 1, 'C': 1, 'S': 1} 0 6.0
+calculate_coincidence_index {'S': 1, 'R': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'H': 1, 'G': 2} 2 6.0
+calculate_coincidence_index {'L': 1, 'O': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'C': 1, 'S': 1, 'K': 1} 0 6.0
+calculate_coincidence_index {'P': 1, 'R': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'Y': 1, 'S': 1, 'F': 1} 0 6.0
+calculate_coincidence_index {'M': 1, 'W': 1, 'G': 1} 0 6.0
+calculate_coincidence_index {'G': 2} 2 2.0
+calculate_coincidence_index {'B': 1, 'L': 1} 0 2.0
+calculate_coincidence_index {'C': 1, 'E': 1} 0 2.0
+calculate_coincidence_index {'H': 1, 'R': 1} 0 2.0
++++calculate_column_wise_coincidence_index 19 0.09 {0: 0.3333333333333333, 1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.3333333333333333, 10: 0.0, 11: 0.0, 12: 0.0, 13: 0.0, 14: 0.0, 15: 1.0, 16: 0.0, 17: 0.0, 18: 0.0} 
+
+==> 10 [0.007000000000000006, 0.012999999999999998, 0.017, 0.033, 0.017, 0.007000000000000006, 0.007000000000000006, 0.07300000000000001, 0.027000000000000003, 0.0030000000000000027, 0.037000000000000005, 0.027000000000000003, 0.017, 0.033, 0.027000000000000003, 0.273, 0.007000000000000006, 0.027000000000000003, 0.022999999999999993] 
+
+==========test_break_message_in_1_column
+==========test_break_message_in_2_columns
+==========test_break_message_in_2_columns_even
+==========test_break_message_in_3_columns_even
+==========test_calculate_column_wise_coincidence_index
+calculate_coincidence_index {'a': 3} 6 6.0
+==========test_coincidence_index_all_same_and_1_len
+==========test_coincidence_index_all_same_and_2_len
+calculate_coincidence_index {'a': 2} 2 2.0
+==========test_count_occurences_all_1
+==========test_count_occurences_alphabet
+==========test_count_occurences_string
+==========test_decrypt_monoalphabetic
+0.798
+1.20328571429
+0.663184138668
+==========test_mooodle_class
+245.9265
+57.1560974041
+4.30271679085
+5
+!!!!move_letters_according_to_key_len NEITHERMUSTWEFORGETTHATTHEREPUBLICISBUTTHETHIRDPARTOFASTILLLARGERDESIGNWHICHWASTOHAVEINCLUDEDANIDEALHISTORYOFATHENSASWELLASAPOLITICALANDPHYSICALPHILOSOPHYTHEFRAGMENTOFTHECRITIASHASGIVENBIRTHTOAWORLDFAMOUSFICTIONSECONDONLYINIMPORTANCETOTHETALEOFTROYANDTHELEGENDOFARTHURANDISSAIDASAFACTTOHAVEINSPIREDSOMEOFTHEEARLYNAVIGATORSOFTHESIXTEENTHCENTURYTHISMYTHICALTALEOFWHICHTHESUBJECTWASAHISTORYOFTHEWARSOFTHEATHENIANSAGAINSTTHEISLANDOFATLANTISISSUPPOSEDTOBEFOUNDEDUPONANUNFINISHEDPOEMOFSOLONTOWHICHITWOULDHAVESTOODINTHESAMERELATIONASTHEWRITINGSOFTHELOGOGRAPHERSTOTHEPOEMSOFHOMERITWOULDHAVETOLDOFASTRUGGLEFORLIBERTYCPTIMINTENDEDTOREPRESENTTHECONFLICTOFPERSIAANDHELLASWEMAYJUDGEFROMTHENOBLECOMMENCEMENTOFTHETIMAEUSFROMTHEFRAGMENTOFTHECRITIASITSELFANDFROMTHETHIRDBOOKOFTHELAWSINWHATMANNERPLATOWOULDHAVETREATEDTHISHIGHARGUMENTWECANONLYGUESSWHYTHEGREATDESIGNWASABANDONEDPERHAPSBECAUSEPLATOBECAMESENSIBLEOFSOMEINCONGRUITYINAFICTITIOUSHISTORYORBECAUSEHEHADLOSTHISINTERESTINITORBECAUSEADVANCINGYEARSFORBADETHECOMPLETIONOFITANDWEMAYPLEASEOURSELVESWITHTHEFANCYTHATHADTHISIMAGINARYNARRATIVEEVERBEENFINISHEDWESHOULDHAVEFOUNDPLATOHIMSELFSYMPATHISINGWITHTHESTRUGGLEFORHELLENICINDEPENDENCECPLAWSSINGINGAHYMNOFTRIUMPHOVERMARATHONANDSALAMISPERHAPSMAKINGTHEREFLECTIONOFHERODOTUSWHEREHECONTEMPLATESTHEGROWTHOFTHEATHENIANEMPIREHOWBRAVEATHINGISFREEDOMOFSPEECHWHICHHASMADETHEATHENIANSSOFAREXCEEDEVERYOTHERSTATEOFHELLASINGREATNESSORMOREPROBABLYATTRIBUTINGTHEVICTORYTOTHEANCIENTGOODORDEROFATHENSANDTOTHEFAVOROFAPOLLOANDATHENECPINTRODTOCRITIASAGAINPLATOMAYBEREGARDEDASTHECAPTAINARHCHEGOZORLEADEROFAGOODLYBANDOFFOLLOWERSFORINTHEREPUBLICISTOBEFOUNDTHEORIGINALOFCICEROSDEREPUBLICAOFSTAUGUSTINESCITYOFGODOFTHEUTOPIAOFSIRTHOMASMOREANDOFTHENUMEROUSOTHERIMAGINARYSTATESWHICHAREFRAMEDUPONTHESAMEMODELTHEEXTENTTOWHICHARISTOTLEORTHEARISTOTELIANSCHOOLWEREINDEBTEDTOHIMINTHEPOLITICSHASBEENLITTLERECOGNISEDANDTHERECOGNITIONISTHEMORENECESSARYBECAUSEITISNOTMADEBYARISTOTLEHIMSELFTHETWOPHILOSOPHERSHADMOREINCOMMONTHANTHEYWERECONSCIOUSOFANDPROBABLYSOMEELEMENTSOFPLATOREMAINSTILLUNDETECTEDINARISTOTLEINENGLISHPHILOSOPHYTOOMANYAFFINITIESMAYBETRACEDNOTONLYINTHEWORKSOFTHECAMBRIDGEPLATONISTSBUTINGREATORIGINALWRITERSLIKEBERKELEYORCOLERIDGETOPLATOANDHISIDEASTHATTHEREISATRUTHHIGHERTHANEXPERIENCEOFWHICHTHEMINDBEARSWITNESSTOHERSELFISACONVICTIONWHICHINOUROWNGENERATIONHASBEENENTHUSIASTICALLYASSERTEDANDISPERHAPSGAININGGROUNDOFTHEGREEKAUTHORSWHOATTHERENAISSANCEBROUGHTANEWLIFEINTOTHEWORLDPLATOHASHADTHEGREATESTINFLUENCETHEREPUBLICOFPLATOISALSOTHEFIRSTTREATISEUPONEDUCATIONOFWHICHTHEWRITINGSOFMILTONANDLOCKEROUSSEAUJEANPAULANDGOETHEARETHELEGITIMATEDESCENDANTSLIKEDANTEORBUNYANHEHASAREVELATIONOFANOTHERLIFELIKEBACONHEISPROFOUNDLYIMPRESSEDWITHTHEUNITYOFKNOWLEDGEINTHEEARLYCHURCHHEEXERCISEDAREALINFLUENCEONTHEOLOGYANDATTHEREVIVALOFLITERATUREONPOLITICSEVENTHEFRAGMENTSOFHISWORDSWHENREPEATEDATSECONDHANDSYMPHAVEINALLAGESRAVISHEDTHEHEARTSOFMENWHOHAVESEENREFLECTEDINTHEMTHEIROWNHIGHERNATUREHEISTHEFATHEROFIDEALISMINPHILOSOPHYINPOLITICSINLITERATUREANDMANYOFTHELATESTCONCEPTIONSOFMODERNTHINKERSANDSTATESMENSUCHASTHEUNITYOFKNOWLEDGETHEREIGNOFLAWANDTHEEQUALITYOFTHESEXESHAVEBEENANTICIPATEDINADREAMBYHIMTHEARGUMENTOFTHEREPUBLICISTHESEARCHAFTERJUSTICETHENATUREOFWHICHISFIRSTHINTEDATBYCEPHALUSTHEJUSTANDBLAMELESSOLDMANTHENDISCUSSEDONTHEBASISOFPROVERBIALMORALITYBYSOCRATESANDPOLEMARCHUSTHENCARICATUREDBYTHRASYMACHUSANDPARTIALLYEXPLAINEDBYSOCRATESREDUCEDTOANABSTRACTIONBYGLAUCONANDADEIMANTUSANDHAVINGBECOMEINVISIBLEINTHEINDIVIDUALREAPPEARSATLENGTHINTHEIDEALSTATEWHICHISCONSTRUCTEDBYSOCRATESTHEFIRSTCAREOFTHERULERSISTOBEEDUCATIONOFWHICHANOUTLINEISDRAWNAFTERTHEOLDHELLENICMODELPROVIDINGONLYFORANIMPROVEDRELIGIONANDMORALITYANDMORESIMPLICITYINMUSICANDGYMNASTICAMANLIERSTRAINOFPOETRYANDGREATERHARMONYOFTHEINDIVIDUALANDTHESTATEWEARETHUSLEDONTOTHECONCEPTIONOFAHIGHERSTATEINWHICHNOMANCALLSANYTHINGHISOWNANDINWHICHTHEREISNEITHERMARRYINGNORGIVINGINMARRIAGEANDKINGSAREPHILOSOPHERSANDPHILOSOPHERSAREKINGSANDTHEREISANOTHERANDHIGHEREDUCATIONINTELLECTUALASWELLASMORALANDRELIGIOUSOFSCIENCEASWELLASOFARTANDNOTOFYOUTHONLYBUTOFTHEWHOLEOFLIFESUCHASTATEISHARDLYTOBEREALIZEDINTHISWORLDANDQUICKLYDEGENERATESTOTHEPERFECTIDEALSUCCEEDSTHEGOVERNMENTOFTHESOLDIERANDTHELOVEROFHONOURTHISAGAINDECLININGINTODEMOCRACYANDDEMOCRACYINTOTYRANNYINANIMAGINARYBUTREGULARORDERHAVINGNOTMUCHRESEMBLANCETOTHEACTUALFACTSWHENTHEWHEELHASCOMEFULLCIRCLEWEDONOTBEGINAGAINWITHANEWPERIODOFHUMANLIFEBUTWEHAVEPASSEDFROMTHEBESTTOTHEWORSTANDTHEREWEENDTHESUBJECTISTHENCHANGEDANDTHEOLDQUARRELOFPOETRYANDPHILOSOPHYWHICHHADBEENMORELIGHTLYTREATEDINTHEEARLIERBOOKSOFTHEREPUBLICISNOWRESUMEDANDFOUGHTOUTTOACONCLUSIONPOETRYISDISCOVEREDTOBEANIMITATIONTHRICEREMOVEDFROMTHETRUTHANDHOMERASWELLASTHEDRAMATICPOETSHAVINGBEENCONDEMNEDASANIMITATORISSENTINTOBANISHMENTALONGWITHTHEMANDTHEIDEAOFTHESTATEISSUPPLEMENTEDBYTHEREVELATIONOFAFUTURELIFETHEDIVISIONINTOBOOKSLIKEALLSIMILARDIVISIONSCPSIRGCLEWISINTHECLASSICALMUSEUMISPROBABLYLATERTHANTHEAGEOFPLATOTHENATURALDIVISIONSAREFIVEINNUMBERBOOKIANDTHEFIRSTHALFOFBOOKIIDOWNTOTHEPARAGRAPHBEGINNINGIHADALWAYSADMIREDTHEGENIUSOFGLAUCONANDADEIMANTUSWHICHISINTRODUCTORYTHEFIRSTBOOKCONTAININGAREFUTATIONOFTHEPOPULARANDSOPHISTICALNOTIONSOFJUSTICEANDCONCLUDINGLIKESOMEOFTHEEARLIERDIALOGUESWITHOUTARRIVINGATANYDEFINITERESULTTOTHISISAPPENDEDARESTATEMENTOFTHENATUREOFJUSTICEACCORDINGTOCOMMONOPINIONANDANANSWERISDEMANDEDTOTHEQUESTIONWHATISJUSTICESTRIPPEDOFAPPEARANCESTHESECONDDIVISIONINCLUDESTHEREMAINDEROFTHESECONDANDTHEWHOLEOFTHETHIRDANDFOURTHBOOKSWHICHAREMAINLYOCCUPIEDWITHTHECONSTRUCTIONOFTHEFIRSTSTATEANDTHEFIRSTEDUCATIONTHETHIRDDIVISIONCONSISTSOFTHEFIFTHSIXTHANDSEVENTHBOOKSINWHICHPHILOSOPHYRATHERTHANJUSTICEISTHESUBJECTOFENQUIRYANDTHESECONDSTATEISCONSTRUCTEDONPRINCIPLESOFCOMMUNISMANDRULEDBYPHILOSOPHERSANDTHECONTEMPLATIONOFTHEIDEAOFGOODTAKESTHEPLACEOFTHESOCIALANDPOLITICALVIRTUESINTHEEIGHTHANDNINTHBOOKSTHEPERVERSIONSOFSTATESANDOFTHEINDIVIDUALSWHOCORRESPONDTOTHEMAREREVIEWEDINSUCCESSIONANDTHENATUREOFPLEASUREANDTHEPRINCIPLEOFTYRANNYAREFURTHERANALYSEDINTHEINDIVIDUALMANTHETENTHBOOKISTHECONCLUSIONOFTHEWHOLEINWHICHTHERELATIONSOFPHILOSOPHYTOPOETRYAREFINALLYDETERMINEDANDTHEHAPPINESSOFTHECITIZENSINTHISLIFEWHICHHASNOWBEENASSUREDISCROWNEDBYTHEVISIONOFANOTHERORAMOREGENERALDIVISIONINTOTWOPARTSMAYBEADOPTEDTHEFIRSTBOOKSIIVCONTAININGTHEDESCRIPTIONOFASTATEFRAMEDGENERALLYINACCORDANCEWITHHELLENICNOTIONSOFRELIGIONANDMORALITYWHILEINTHESECONDBOOKSVXTHEHELLENICSTATEISTRANSFORMEDINTOANIDEALKINGDOMOFPHILOSOPHYOFWHICHALLOTHERGOVERNMENTSARETHEPERVERSIONSTHESETWOPOINTSOFVIEWAREREALLYOPPOSEDANDTHEOPPOSITIONISONLYVEILEDBYTHEGENIUSOFPLATOTHEREPUBLICLIKETHEPHAEDRUSSEEINTRODUCTIONTOPHAEDRUSISANIMPERFECTWHOLETHEHIGHERLIGHTOFPHILOSOPHYBREAKSTHROUGHTHEREGULARITYOFTHEHELLENICTEMPLEWHICHATLASTFADESAWAYINTOTHEHEAVENSWHETHERTHISIMPERFECTIONOFSTRUCTUREARISESFROMANENLARGEMENTOFTHEPLANORFROMTHEIMPERFECTRECONCILEMENTINTHEWRITERSOWNMINDOFTHESTRUGGLINGELEMENTSOFTHOUGHTWHICHARENOWFIRSTBROUGHTTOGETHERBYHIMORPERHAPSFROMTHECOMPOSITIONOFTHEWORKATDIFFERENTTIMESAREQUESTIONSLIKETHESIMILARQUESTIONABOUTTHEILIADANDTHEODYSSEYWHICHAREWORTHASKINGBUTWHICHCANNOTHAVEADISTINCTANSWERINTHEAGEOFPLATOTHEREWASNOREGULARMODEOFPUBLICATIONANDANAUTHORWOULDHAVETHELESSSCRUPLEINALTERINGORADDINGTOAWORKWHICHWASKNOWNONLYTOAFEWOFHISFRIENDSTHEREISNOABSURDITYINSUPPOSINGTHATHEMAYHAVELAIDHISLABOURSASIDEFORATIMEORTURNEDFROMONEWORKTOANOTHERANDSUCHINTERRUPTIONSWOULDBEMORELIKELYTOOCCURINTHECASEOFALONGTHANOFASHORTWRITINGINALLATTEMPTSTODETERMINETHECHRONOLOGICALORDEROFTHEPLATONICWRITINGSONINTERNALEVIDENCETHISUNCERTAINTYABOUTANYSINGLEDIALOGUEBEINGCOMPOSEDATONETIMEISADISTURBINGELEMENTWHICHMUSTBEADMITTEDTOAFFECTLONGERWORKSSUCHASTHEREPUBLICANDTHELAWSMORETHANSHORTERONESBUTONTHEOTHERHANDTHESEEMINGDISCREPANCIESOFTHEREPUBLICMAYONLYARISEOUTOFTHEDISCORDANTELEMENTSWHICHTHEPHILOSOPHERHASATTEMPTEDTOUNITEINASINGLEWHOLEPERHAPSWITHOUTBEINGHIMSELFABLETORECOGNISETHEINCONSISTENCYWHICHISOBVIOUSTOUSFORTHEREISAJUDGMENTOFAFTERAGESWHICHFEWGREATWRITERSHAVEEVERBEENABLETOANTICIPATEFORTHEMSELVESTHEYDONOTPERCEIVETHEWANTOFCONNEXIONINTHEIROWNWRITINGSORTHEGAPSINTHEIRSYSTEMSWHICHAREVISIBLEENOUGHTOTHOSEWHOCOMEAFTERTHEMINTHEBEGINNINGSOFLITERATUREANDPHILOSOPHYAMIDTHEFIRSTEFFORTSOFTHOUGHTANDLANGUAGEMOREINCONSISTENCIESOCCURTHANNOWWHENTHEPATHSOFSPECULATIONAREWELLWORNANDTHEMEANINGOFWORDSPRECISELYDEFINEDFORCONSISTENCYTOOISTHEGROWTHOFTIMEANDSOMEOFTHEGREATESTCREATIONSOFTHEHUMANMINDHAVEBEENWANTINGINUNITYTRIEDBYTHISTESTSEVERALOFTHEPLATONICDIALOGUESACCORDINGTOOURMODERNIDEASAPPEARTOBEDEFECTIVEBUTTHEDEFICIENCYISNOPROOFTHATTHEYWERECOMPOSEDATDIFFERENTTIMESORBYDIFFERENTHANDSANDTHESUPPOSITIONTHATTHEREPUBLICWASWRITTENUNINTERRUPTEDLYANDBYACONTINUOUSEFFORTISINSOMEDEGREECONFIRMEDBYTHENUMEROUSREFERENCESFROMONEPARTOFTHEWORKTOANOTHER [15, 11, 0, 19, 14] PLATO 
+
+NEITHERMUSTWEFORGETTHATTHEREPUBLICISBUTTHETHIRDPARTOFASTILLLARGERDESIGNWHICHWASTOHAVEINCLUDEDANIDEALHISTORYOFATHENSASWELLASAPOLITICALANDPHYSICALPHILOSOPHYTHEFRAGMENTOFTHECRITIASHASGIVENBIRTHTOAWORLDFAMOUSFICTIONSECONDONLYINIMPORTANCETOTHETALEOFTROYANDTHELEGENDOFARTHURANDISSAIDASAFACTTOHAVEINSPIREDSOMEOFTHEEARLYNAVIGATORSOFTHESIXTEENTHCENTURYTHISMYTHICALTALEOFWHICHTHESUBJECTWASAHISTORYOFTHEWARSOFTHEATHENIANSAGAINSTTHEISLANDOFATLANTISISSUPPOSEDTOBEFOUNDEDUPONANUNFINISHEDPOEMOFSOLONTOWHICHITWOULDHAVESTOODINTHESAMERELATIONASTHEWRITINGSOFTHELOGOGRAPHERSTOTHEPOEMSOFHOMERITWOULDHAVETOLDOFASTRUGGLEFORLIBERTYCPTIMINTENDEDTOREPRESENTTHECONFLICTOFPERSIAANDHELLASWEMAYJUDGEFROMTHENOBLECOMMENCEMENTOFTHETIMAEUSFROMTHEFRAGMENTOFTHECRITIASITSELFANDFROMTHETHIRDBOOKOFTHELAWSINWHATMANNERPLATOWOULDHAVETREATEDTHISHIGHARGUMENTWECANONLYGUESSWHYTHEGREATDESIGNWASABANDONEDPERHAPSBECAUSEPLATOBECAMESENSIBLEOFSOMEINCONGRUITYINAFICTITIOUSHISTORYORBECAUSEHEHADLOSTHISINTERESTINITORBECAUSEADVANCINGYEARSFORBADETHECOMPLETIONOFITANDWEMAYPLEASEOURSELVESWITHTHEFANCYTHATHADTHISIMAGINARYNARRATIVEEVERBEENFINISHEDWESHOULDHAVEFOUNDPLATOHIMSELFSYMPATHISINGWITHTHESTRUGGLEFORHELLENICINDEPENDENCECPLAWSSINGINGAHYMNOFTRIUMPHOVERMARATHONANDSALAMISPERHAPSMAKINGTHEREFLECTIONOFHERODOTUSWHEREHECONTEMPLATESTHEGROWTHOFTHEATHENIANEMPIREHOWBRAVEATHINGISFREEDOMOFSPEECHWHICHHASMADETHEATHENIANSSOFAREXCEEDEVERYOTHERSTATEOFHELLASINGREATNESSORMOREPROBABLYATTRIBUTINGTHEVICTORYTOTHEANCIENTGOODORDEROFATHENSANDTOTHEFAVOROFAPOLLOANDATHENECPINTRODTOCRITIASAGAINPLATOMAYBEREGARDEDASTHECAPTAINARHCHEGOZORLEADEROFAGOODLYBANDOFFOLLOWERSFORINTHEREPUBLICISTOBEFOUNDTHEORIGINALOFCICEROSDEREPUBLICAOFSTAUGUSTINESCITYOFGODOFTHEUTOPIAOFSIRTHOMASMOREANDOFTHENUMEROUSOTHERIMAGINARYSTATESWHICHAREFRAMEDUPONTHESAMEMODELTHEEXTENTTOWHICHARISTOTLEORTHEARISTOTELIANSCHOOLWEREINDEBTEDTOHIMINTHEPOLITICSHASBEENLITTLERECOGNISEDANDTHERECOGNITIONISTHEMORENECESSARYBECAUSEITISNOTMADEBYARISTOTLEHIMSELFTHETWOPHILOSOPHERSHADMOREINCOMMONTHANTHEYWERECONSCIOUSOFANDPROBABLYSOMEELEMENTSOFPLATOREMAINSTILLUNDETECTEDINARISTOTLEINENGLISHPHILOSOPHYTOOMANYAFFINITIESMAYBETRACEDNOTONLYINTHEWORKSOFTHECAMBRIDGEPLATONISTSBUTINGREATORIGINALWRITERSLIKEBERKELEYORCOLERIDGETOPLATOANDHISIDEASTHATTHEREISATRUTHHIGHERTHANEXPERIENCEOFWHICHTHEMINDBEARSWITNESSTOHERSELFISACONVICTIONWHICHINOUROWNGENERATIONHASBEENENTHUSIASTICALLYASSERTEDANDISPERHAPSGAININGGROUNDOFTHEGREEKAUTHORSWHOATTHERENAISSANCEBROUGHTANEWLIFEINTOTHEWORLDPLATOHASHADTHEGREATESTINFLUENCETHEREPUBLICOFPLATOISALSOTHEFIRSTTREATISEUPONEDUCATIONOFWHICHTHEWRITINGSOFMILTONANDLOCKEROUSSEAUJEANPAULANDGOETHEARETHELEGITIMATEDESCENDANTSLIKEDANTEORBUNYANHEHASAREVELATIONOFANOTHERLIFELIKEBACONHEISPROFOUNDLYIMPRESSEDWITHTHEUNITYOFKNOWLEDGEINTHEEARLYCHURCHHEEXERCISEDAREALINFLUENCEONTHEOLOGYANDATTHEREVIVALOFLITERATUREONPOLITICSEVENTHEFRAGMENTSOFHISWORDSWHENREPEATEDATSECONDHANDSYMPHAVEINALLAGESRAVISHEDTHEHEARTSOFMENWHOHAVESEENREFLECTEDINTHEMTHEIROWNHIGHERNATUREHEISTHEFATHEROFIDEALISMINPHILOSOPHYINPOLITICSINLITERATUREANDMANYOFTHELATESTCONCEPTIONSOFMODERNTHINKERSANDSTATESMENSUCHASTHEUNITYOFKNOWLEDGETHEREIGNOFLAWANDTHEEQUALITYOFTHESEXESHAVEBEENANTICIPATEDINADREAMBYHIMTHEARGUMENTOFTHEREPUBLICISTHESEARCHAFTERJUSTICETHENATUREOFWHICHISFIRSTHINTEDATBYCEPHALUSTHEJUSTANDBLAMELESSOLDMANTHENDISCUSSEDONTHEBASISOFPROVERBIALMORALITYBYSOCRATESANDPOLEMARCHUSTHENCARICATUREDBYTHRASYMACHUSANDPARTIALLYEXPLAINEDBYSOCRATESREDUCEDTOANABSTRACTIONBYGLAUCONANDADEIMANTUSANDHAVINGBECOMEINVISIBLEINTHEINDIVIDUALREAPPEARSATLENGTHINTHEIDEALSTATEWHICHISCONSTRUCTEDBYSOCRATESTHEFIRSTCAREOFTHERULERSISTOBEEDUCATIONOFWHICHANOUTLINEISDRAWNAFTERTHEOLDHELLENICMODELPROVIDINGONLYFORANIMPROVEDRELIGIONANDMORALITYANDMORESIMPLICITYINMUSICANDGYMNASTICAMANLIERSTRAINOFPOETRYANDGREATERHARMONYOFTHEINDIVIDUALANDTHESTATEWEARETHUSLEDONTOTHECONCEPTIONOFAHIGHERSTATEINWHICHNOMANCALLSANYTHINGHISOWNANDINWHICHTHEREISNEITHERMARRYINGNORGIVINGINMARRIAGEANDKINGSAREPHILOSOPHERSANDPHILOSOPHERSAREKINGSANDTHEREISANOTHERANDHIGHEREDUCATIONINTELLECTUALASWELLASMORALANDRELIGIOUSOFSCIENCEASWELLASOFARTANDNOTOFYOUTHONLYBUTOFTHEWHOLEOFLIFESUCHASTATEISHARDLYTOBEREALIZEDINTHISWORLDANDQUICKLYDEGENERATESTOTHEPERFECTIDEALSUCCEEDSTHEGOVERNMENTOFTHESOLDIERANDTHELOVEROFHONOURTHISAGAINDECLININGINTODEMOCRACYANDDEMOCRACYINTOTYRANNYINANIMAGINARYBUTREGULARORDERHAVINGNOTMUCHRESEMBLANCETOTHEACTUALFACTSWHENTHEWHEELHASCOMEFULLCIRCLEWEDONOTBEGINAGAINWITHANEWPERIODOFHUMANLIFEBUTWEHAVEPASSEDFROMTHEBESTTOTHEWORSTANDTHEREWEENDTHESUBJECTISTHENCHANGEDANDTHEOLDQUARRELOFPOETRYANDPHILOSOPHYWHICHHADBEENMORELIGHTLYTREATEDINTHEEARLIERBOOKSOFTHEREPUBLICISNOWRESUMEDANDFOUGHTOUTTOACONCLUSIONPOETRYISDISCOVEREDTOBEANIMITATIONTHRICEREMOVEDFROMTHETRUTHANDHOMERASWELLASTHEDRAMATICPOETSHAVINGBEENCONDEMNEDASANIMITATORISSENTINTOBANISHMENTALONGWITHTHEMANDTHEIDEAOFTHESTATEISSUPPLEMENTEDBYTHEREVELATIONOFAFUTURELIFETHEDIVISIONINTOBOOKSLIKEALLSIMILARDIVISIONSCPSIRGCLEWISINTHECLASSICALMUSEUMISPROBABLYLATERTHANTHEAGEOFPLATOTHENATURALDIVISIONSAREFIVEINNUMBERBOOKIANDTHEFIRSTHALFOFBOOKIIDOWNTOTHEPARAGRAPHBEGINNINGIHADALWAYSADMIREDTHEGENIUSOFGLAUCONANDADEIMANTUSWHICHISINTRODUCTORYTHEFIRSTBOOKCONTAININGAREFUTATIONOFTHEPOPULARANDSOPHISTICALNOTIONSOFJUSTICEANDCONCLUDINGLIKESOMEOFTHEEARLIERDIALOGUESWITHOUTARRIVINGATANYDEFINITERESULTTOTHISISAPPENDEDARESTATEMENTOFTHENATUREOFJUSTICEACCORDINGTOCOMMONOPINIONANDANANSWERISDEMANDEDTOTHEQUESTIONWHATISJUSTICESTRIPPEDOFAPPEARANCESTHESECONDDIVISIONINCLUDESTHEREMAINDEROFTHESECONDANDTHEWHOLEOFTHETHIRDANDFOURTHBOOKSWHICHAREMAINLYOCCUPIEDWITHTHECONSTRUCTIONOFTHEFIRSTSTATEANDTHEFIRSTEDUCATIONTHETHIRDDIVISIONCONSISTSOFTHEFIFTHSIXTHANDSEVENTHBOOKSINWHICHPHILOSOPHYRATHERTHANJUSTICEISTHESUBJECTOFENQUIRYANDTHESECONDSTATEISCONSTRUCTEDONPRINCIPLESOFCOMMUNISMANDRULEDBYPHILOSOPHERSANDTHECONTEMPLATIONOFTHEIDEAOFGOODTAKESTHEPLACEOFTHESOCIALANDPOLITICALVIRTUESINTHEEIGHTHANDNINTHBOOKSTHEPERVERSIONSOFSTATESANDOFTHEINDIVIDUALSWHOCORRESPONDTOTHEMAREREVIEWEDINSUCCESSIONANDTHENATUREOFPLEASUREANDTHEPRINCIPLEOFTYRANNYAREFURTHERANALYSEDINTHEINDIVIDUALMANTHETENTHBOOKISTHECONCLUSIONOFTHEWHOLEINWHICHTHERELATIONSOFPHILOSOPHYTOPOETRYAREFINALLYDETERMINEDANDTHEHAPPINESSOFTHECITIZENSINTHISLIFEWHICHHASNOWBEENASSUREDISCROWNEDBYTHEVISIONOFANOTHERORAMOREGENERALDIVISIONINTOTWOPARTSMAYBEADOPTEDTHEFIRSTBOOKSIIVCONTAININGTHEDESCRIPTIONOFASTATEFRAMEDGENERALLYINACCORDANCEWITHHELLENICNOTIONSOFRELIGIONANDMORALITYWHILEINTHESECONDBOOKSVXTHEHELLENICSTATEISTRANSFORMEDINTOANIDEALKINGDOMOFPHILOSOPHYOFWHICHALLOTHERGOVERNMENTSARETHEPERVERSIONSTHESETWOPOINTSOFVIEWAREREALLYOPPOSEDANDTHEOPPOSITIONISONLYVEILEDBYTHEGENIUSOFPLATOTHEREPUBLICLIKETHEPHAEDRUSSEEINTRODUCTIONTOPHAEDRUSISANIMPERFECTWHOLETHEHIGHERLIGHTOFPHILOSOPHYBREAKSTHROUGHTHEREGULARITYOFTHEHELLENICTEMPLEWHICHATLASTFADESAWAYINTOTHEHEAVENSWHETHERTHISIMPERFECTIONOFSTRUCTUREARISESFROMANENLARGEMENTOFTHEPLANORFROMTHEIMPERFECTRECONCILEMENTINTHEWRITERSOWNMINDOFTHESTRUGGLINGELEMENTSOFTHOUGHTWHICHARENOWFIRSTBROUGHTTOGETHERBYHIMORPERHAPSFROMTHECOMPOSITIONOFTHEWORKATDIFFERENTTIMESAREQUESTIONSLIKETHESIMILARQUESTIONABOUTTHEILIADANDTHEODYSSEYWHICHAREWORTHASKINGBUTWHICHCANNOTHAVEADISTINCTANSWERINTHEAGEOFPLATOTHEREWASNOREGULARMODEOFPUBLICATIONANDANAUTHORWOULDHAVETHELESSSCRUPLEINALTERINGORADDINGTOAWORKWHICHWASKNOWNONLYTOAFEWOFHISFRIENDSTHEREISNOABSURDITYINSUPPOSINGTHATHEMAYHAVELAIDHISLABOURSASIDEFORATIMEORTURNEDFROMONEWORKTOANOTHERANDSUCHINTERRUPTIONSWOULDBEMORELIKELYTOOCCURINTHECASEOFALONGTHANOFASHORTWRITINGINALLATTEMPTSTODETERMINETHECHRONOLOGICALORDEROFTHEPLATONICWRITINGSONINTERNALEVIDENCETHISUNCERTAINTYABOUTANYSINGLEDIALOGUEBEINGCOMPOSEDATONETIMEISADISTURBINGELEMENTWHICHMUSTBEADMITTEDTOAFFECTLONGERWORKSSUCHASTHEREPUBLICANDTHELAWSMORETHANSHORTERONESBUTONTHEOTHERHANDTHESEEMINGDISCREPANCIESOFTHEREPUBLICMAYONLYARISEOUTOFTHEDISCORDANTELEMENTSWHICHTHEPHILOSOPHERHASATTEMPTEDTOUNITEINASINGLEWHOLEPERHAPSWITHOUTBEINGHIMSELFABLETORECOGNISETHEINCONSISTENCYWHICHISOBVIOUSTOUSFORTHEREISAJUDGMENTOFAFTERAGESWHICHFEWGREATWRITERSHAVEEVERBEENABLETOANTICIPATEFORTHEMSELVESTHEYDONOTPERCEIVETHEWANTOFCONNEXIONINTHEIROWNWRITINGSORTHEGAPSINTHEIRSYSTEMSWHICHAREVISIBLEENOUGHTOTHOSEWHOCOMEAFTERTHEMINTHEBEGINNINGSOFLITERATUREANDPHILOSOPHYAMIDTHEFIRSTEFFORTSOFTHOUGHTANDLANGUAGEMOREINCONSISTENCIESOCCURTHANNOWWHENTHEPATHSOFSPECULATIONAREWELLWORNANDTHEMEANINGOFWORDSPRECISELYDEFINEDFORCONSISTENCYTOOISTHEGROWTHOFTIMEANDSOMEOFTHEGREATESTCREATIONSOFTHEHUMANMINDHAVEBEENWANTINGINUNITYTRIEDBYTHISTESTSEVERALOFTHEPLATONICDIALOGUESACCORDINGTOOURMODERNIDEASAPPEARTOBEDEFECTIVEBUTTHEDEFICIENCYISNOPROOFTHATTHEYWERECOMPOSEDATDIFFERENTTIMESORBYDIFFERENTHANDSANDTHESUPPOSITIONTHATTHEREPUBLICWASWRITTENUNINTERRUPTEDLYANDBYACONTINUOUSEFFORTISINSOMEDEGREECONFIRMEDBYTHENUMEROUSREFERENCESFROMONEPARTOFTHEWORKTOANOTHER

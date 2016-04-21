@@ -1,0 +1,157 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{blindtext, graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{
+    frame=single,
+    breaklines=true,
+    postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+}
+\lstdefinelanguage{py}{
+    keywords = {
+        and,del,from,not,while,
+        as,elif,global,or,with,
+        assert,else,if,pass,yield,
+        break,except,import,print,
+        class,exec,in, raise,continue,
+        finally,is,return,def,for,
+        lambda,try,avg,foreach,do,function,end
+    },
+    morekeywords = {py,fft,mean}
+}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+% can use linebreaks \\ within to get better formatting as desired
+\title{Showing the }
+
+
+\author{\IEEEauthorblockN{Gabriel Oliveira}
+\IEEEauthorblockA{Computer Science School\\
+Pontifícia Universidade Catolica\\ do Rio Grande do Sul
+Porto Alegre, RS, Brasil\\
+Email: gabriel.pimentel@acad.pucrs.br}
+}
+
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+Frequency analysis is a method to study of the frequency of occurrence of letters in a text. The method is used as an aid to breaking classical monoalphabetic ciphers, but it is not useful against polyalphabetic ciphers. The index of coincidence is the technique used to measure of how likely it is to draw two matching letters by randomly selecting two letters from a given text. In this text, we will show how we had used those techniques to break a polyalphabetic substitution cypher.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Cryptography, Frequency Analysis, Index of Coincidence.
+\end{IEEEkeywords}
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+The field of cryptography is not only filled with monoalphabetic ciphers, the ones we move all the letters by a certain amount of positions. One attacker can mix many text movements using a proper key and the Vigenère cipher \cite{AIDEN_2011}. This paper described a technique to break those kind of ciphers.
+
+\subsection{Frequency Analysis}
+Many techniques use statistical properties of the English language \cite{STINSON_2005}. Frequency Analysis is one of those techniques, which relies on the count of occurrences of letters in the text or the frequency of their appearance to extract patterns from the text. It`s often used to decipher texts that were encoded using a substitution cipher (explained in \cite{STINSON_2005}) - also known as monoalphabetic ciphers.
+
+In this work, we had used the English letters frequency obtained from \cite{ALGORITMY} and \cite{LEWAND_2000}.
+
+\subsection{Index of Coincidence}
+Coincidence counting is the technique \cite{FRIEDMAN_1922} of putting two texts side-by-side and counting the number of times that identical letters appear in the same position in both texts. This count, either as a ratio of the total or normalized by dividing by the expected count for a random source model, is known as the index of coincidence (IC).
+
+To obtain the IC of a given text, we use the following formula, where \textit{N} is the length of the text and \textit{$n_{1}$} through \textit{$n_{c}$} are the frequencies (as integers) of the \textit{c} letters of the alphabet (c = 26 for monocase English). More details on how this formula was obtained can be found on \cite{FRIEDMAN_1922}.
+
+\[ IC = \frac{\sum_{i=1}^{c} n * (n-1)}{N * (N-1)}  \]
+
+\section{Combining Frequency Analysis and the Index of Coincidence}
+Since the frequency analysis technique is only used on monoalphabetic ciphers, our proposal is to combine it with the index of coincidence technique in order to decipher texts encrypted with polyalphabetic ciphers. 
+
+The Vigenère cipher \cite{AIDEN_2011} is one example of polyalphabetic ciphers. It uses a key to encrypt the text and the same one to decrypt it. Without any knowledge about the key used to encrypt the text it is not possible to read it.The index of coincidence can help us to start solving the Vigenère cipher by helping us to discover the length of the key. 
+
+\subsection{Finding the Key Lenght by dividing the text in columns}
+
+One way to do that is to guess the key length and use the index of coincidence to validate our guess. Intuitively, we know that the key is probably smaller than the text. Thus, a single character of the key is used to encrypt many characters in the text. If we guessed the key length correctly, all those characters encrypted with the same character of the key constitute a part of the text on witch we should see the same IC of an English text. Also, all those characters encrypted with the same character of the key constitute a monoalphabetic ciphered text and can be deciphered using the frequency analysis technique. An algorithm to follow those steps can be found below:
+
+\begin{lstlisting}[language=py]
+function find_best_key_len(m):
+    english_ic = 0.067
+    ics = {}
+    foreach key_lenght k do:
+        columns = break_message(m, k)
+        column_ic = {}
+        foreach columns c do:
+            column_ic += calculate_ic(c)
+        end
+        key_ic = avg(column_ic)
+        ics += (key_ic - english_ic)
+    end
+    return min(ics)
+\end{lstlisting}
+
+Note that when using such algorithm, the described formula for the index of coincidence should use N as the column number of characters. Also note how the value 0.067 (taken from \cite{STINSON_2005}) is being used as reference to the index of coincidence of a normal english text.
+
+\subsection{Finding the Key Length using the whole text}
+
+Another way to do that is to apply the Friedman test in all text. This is a variant way to estimate a cipher key lenght and can be calculated as follows:
+
+\[ h \approx \frac{(E_s - \frac{1}{N}) * k}{(k - 1) * \phi(T) - k*\frac{1}{N} + E_s}  \]
+
+Where \textit{$E_s$} is the expected coincidence index for our natural language (0.067 as already mentioned), \textit{$\phi(T)$} the total coincidence index of our text, N the alphabet size, k the text length.
+
+\subsection{Frequency analysis on a polyalphabetic text with a key of size k}
+
+After the key lenght was found (by either the methods described before), one can apply frequency analysis on each column to decode the text using the following algorithm
+
+\begin{lstlisting}[language=py]
+function move_letters_with_key_len(m,kl):
+    columns = break_message(m, kl)
+    plain_columns = {}
+    key_decrypted = {}
+    foreach columns c do:
+        k,t = move_letters(c)
+        plain_columns += t
+        key_decrypted += k
+    end
+    text = assemble_columns(plain_columns)
+    key = key_decrypted.join()
+    return (text,key)
+\end{lstlisting}
+
+\section{Conclusion}
+This paper have showed how to proper deal with a polyalphabetic cipher, such as the Vigenère cipher \cite{AIDEN_2011}, using the index of coincidence and the Friedman test technique.
+
+The cipher text used to validate those algorithms were using the 5-letter-key \textit{PLATO} and started with the following phrase (spaces and capital letters were used here to facilitate the reading): \textit{Neither must we forget that the republic is but the third part of a still larger design which was to have included an ideal history of Athens as well as a political and physical philosophy}
+
+\begin{thebibliography}{1}
+
+\bibitem{ALGORITMY}
+http://en.algoritmy.net/article/40379/Letter-frequency-English, accessed in March 27th 2016
+
+\bibitem{STINSON_2005}
+Douglas R. Stinson, \emph{Cryptography: Theory and Practice, Third Edition}, 2005.
+
+\bibitem{LEWAND_2000}
+Robert. Lewand, \emph{Cryptological mathematics}, Mathematical Association of America Textbooks, 2000.
+
+\bibitem{FRIEDMAN_1922}
+Friedman, W.F., \emph{The index of coincidence and its applications in cryptology}, Department of Ciphers. Publ 22. Geneva, Illinois, USA: Riverbank Laboratories. OCLC 55786052. The original application ignored normalization, 1922.
+
+\bibitem{AIDEN_2011}
+Bruen, Aiden A., Mario A., \emph{Cryptography, Information Theory, and Error-Correction: A Handbook to the 21st Century}, John Wiley and Sons, ISBN 978-1-118-03138-4, 2011.
+
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{picture}}]{John Doe}
+\blindtext
+\end{IEEEbiography}
+
+% that's all folks
+\end{document}
+
+
