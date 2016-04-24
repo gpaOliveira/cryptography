@@ -1,8 +1,0 @@
-S1: Vigeneres_18,Caesars_04
-S2: In The_05, IS_THE_05, Strings_22, Usings_52,World War_30
-S3: Attacks_45,One Time Pads_00,Provides_18,provide a_18
-S4: Confuse_51,To diffuse_48,if you_00
-S5: Attacks_41_55,to understand_48,to understand_00
-S6: Vigeneres_45,Vigeneres and caesar_45,Caesars_59,english letters_00, frequency anali_16
-S7: letters frequency_7,Of applications_50,Caesars_44,Classes_59,Cryptography_00,Nowaday_67,Silver_42,Types of _45
-S8: Finished_45
